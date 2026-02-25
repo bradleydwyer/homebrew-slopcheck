@@ -1,11 +1,11 @@
-# homebrew-slop-detector
+# homebrew-slopcheck
 
-Homebrew tap for [slop-detector](https://github.com/bradleydwyer/slop-detector).
+Homebrew tap for [slopcheck](https://github.com/bradleydwyer/slopcheck).
 
 ## Install
 
-    brew install bradleydwyer/slop-detector/slop-detector
+    brew install bradleydwyer/slopcheck/slopcheck
 
 ## Update
 
-    brew upgrade slop-detector
+    brew upgrade slopcheck

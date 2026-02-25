@@ -1,7 +1,7 @@
-class SlopDetector < Formula
+class Slopcheck < Formula
   desc "Fast regex-based detection of AI prose tells. No LLM calls, no heavy NLP."
-  homepage "https://github.com/bradleydwyer/slop-detector"
-  url "https://github.com/bradleydwyer/slop-detector/archive/refs/tags/v0.1.0.tar.gz"
+  homepage "https://github.com/bradleydwyer/slopcheck"
+  url "https://github.com/bradleydwyer/slopcheck/archive/refs/tags/v0.1.0.tar.gz"
   sha256 "PLACEHOLDER"
   license "MIT"
 
@@ -12,6 +12,6 @@ class SlopDetector < Formula
   end
 
   test do
-    assert_match "slop-detector", shell_output("#{bin}/slop-detector --version")
+    assert_match "slopcheck", shell_output("#{bin}/slopcheck --version")
   end
 end
